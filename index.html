@@ -7,10 +7,17 @@
   <body>
 <header class="main-header">
 
-    <img src="img/index.logo.png" width="220" height="47" alt="логотип Техномарт">
-
+    <img src="img/index-logo.png" width="220" height="47" alt="логотип Техномарт">
+    <form class="search-form" action="https://echo.htmlacademy.ru"
+    method="post">
+    <p class="search-item">
+      <label for="search-field"> Поиск </label>
+      <input id="search-field" type="text" name="search" value="Поиск"
+      placeholder="Поиск">
+      </p>
+    </form>
   <ul>
-    <li> <a class="marker-link"> Закладки </a></li>
+    <li> <a class="marker-link" href="#"> Закладки </a></li>
     <li> <a class="cart-link" href="#"> Корзина </a></li>
     <li> <a class="checkout" href="#">Оформить заказ </a></li>
   </ul>
@@ -24,8 +31,12 @@
     <p class="address"> г.Санкт-Петербург, ул.Б.Конюшенная, 19/8 </p>
 </div>
 <div class="header-button">
-  <a class="button" href="enter.html"> Вход </a>
-  <a class="button" href="registration.html"> Регистрация </a>
+  <button class="button enter-button" type="button">
+    <a class="button" href="enter.html"> Вход </a>
+  </button>
+  <button class="button registration-button" type="button">
+    <a class="button" href="registration.html"> Регистрация </a>
+  </button>
 </div>
   <nav class="main-navigation">
   <ul class="site-navigation">
@@ -76,7 +87,7 @@
 </section>
 </main>
 <footer class="main-footer">
-  <img src="img/footer.logo.png" width="220" height="68" alt="логотип
+  <img src="img/footer-logo.png" width="220" height="68" alt="логотип
   Техномарт">
   <p class="footer-contacts">
     Адрес: г.Сантк-Петербург, Б.Конюшенная, д.19/8 <br>
@@ -100,6 +111,33 @@
   </ul>
   </nav>
 </footer>
+<section class="modal modal-feedback">
+  <button class="button" type="submit">
+  Закрыть <!-- заменить на крестик -->
+  </button>
+<h3 class="visually-hodden"> Ваши отзывы и предложения </h3>
+<form class="appointment-form" action="https://echo.htmlacademy.ru"
+method="post">
+<p class="appointment-item">
+  <label for="appointment-name"> Ваше имя: </label>
+  <input id="appointment-name" type="text" name="name" value=""
+  placeholder="Имя Фамилия">
+</p>
+<p class="appointment-item">
+  <label for="appointment-email"> Ваш e-mail: </label>
+  <input id="appointment-email" type="text" name="email" value=""
+  placeholder="email@example.com">
+</p>
+<p class="appointment-item">
+  <label for="appointment-letter"> Текст письма: </label>
+  <input id="appointment-letter" type="text" name="letter" value=""
+  placeholder="В свободной форме">
+</p>
+<button class="button" type="submit">
+  Отправить
+</button>
+</form>
+</section>
 <footer class="feedback-footer">
   <p class="copyright">
     © 2010-2017 Компания "Техномарт"<br>
@@ -118,7 +156,7 @@
       </p>
       <p>
         Разработано
-        <a href="https:htmlacademy.ru"> htmlacademy.ru </a>
+        <a href="https://htmlacademy.ru"> htmlacademy.ru </a>
       </p>
 </footer>
   </body>
