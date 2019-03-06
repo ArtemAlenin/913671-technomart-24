@@ -3,67 +3,74 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
+    <link href="https://fonts.googleapis.com/css?family=Myriad+Pro:400,700amp;subset=latin,cyrilic"
+    rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-<header class="main-header">
-<nav class="main-navigator"
-  <img src="img/index.logo.png" width="220" height="47" alt="логотип
-  Техномарт">
-  </nav>
-  <ul>
-    <li> <a class="marker-link" href="#"> Закладки </a></li>
-    <li><button class="button button-cart">
-       <a class="button-cart" class="cart-link" href="#"> Корзина </a>
-     </button></li>
-    <li><button class="button button-checkout">
-      <a class="button-checkout" class="checkout" href="#">Оформить заказ
-    </a></button></li>
-  </ul>
-  <div class="header-text">
-  <p>
-    Интернет-магазин строительных материалов и инструментов для дома
-  </p>
-</div>
-  <div class="header-contacts">
-    <p class="phone"> +7(812)555-05-55 </p>
-    <p class="address"> г.Санкт-Петербург, ул.Б.Конюшенная, 19/8 </p>
-</div>
-<div class="header-button">
-  <p class="user-item-account">
-    <b> <a href="profile/12345.html" Равшан Джамшутович </a></b>
+    <header class="main-header">
+    <section class="main-header-control">
+          <a class="index-logo" href="index.html" alt="Логотип Техномарт">
+            Техномарт </a>
+        <form class="search-form" action="https://echo.htmlacademy.ru"
+        method="post">
+        <p class="search-item">
+          <label for="search-field"> </label>
+          <input id="search-field" type="text" name="search" value="Поиск"
+          placeholder="Поиск">
+          </p>
+        </form>
+      <ul class="user-control">
+        <li> <a class="marker-link" href="#">
+          Закладки </a></li>
+        <li> <a class="cart-link-catalog" href="#">
+          Корзина </a></li>
+        <li> <a class="checkout" href="#">
+          Оформить заказ </a></li>
+      </ul>
+    </section>
+      <p class="header-text">
+        Интернет-магазин<br>
+        строительных материалов<br>
+        и инструментов для дома
+      </p>
 
-
-
-</p>
-  <a class="button" href="exit.html"> Выход </a>
-
-
-  <ul class="header-mini-navigator">
-    <li> <a class="mycheck" href="#"> Мои заказы </a> </li>
-    <li> <a class="private" href="#"> Мой кабинет </a> </li>
-
-</ul>
-</div>
-  <nav class="main-navigation">
-  <ul class="site-navigation">
-  <li> <a href="main.html"> Главная </a> </li>
-  <li> <a href="aboutUs.html"> Компания </a> </li>
-  <li> <a href="catalog.html"> Каталог </a> </li>
-  <li> <a href="news.html"> Новости </a> </li>
-  <li> <a href="offer.html"> Спецпредложение </a> </li>
-  <li> <a href="delivery.html"> Доставка </a> </li>
-  <li> <a href="contacts.html"> Контакты </a> </li>
-  </ul>
-  </nav>
-</header>
+      <div class="header-contacts">
+        <p class="phone"> +7(812)555-05-55 </p>
+        <p class="address"> г.Санкт-Петербург, ул.Б.Конюшенная, 19/8 </p>
+    </div>
+    <div class="user-item">
+      <p>
+        <b> <a class="user-item-account" href="profile/12345.html">
+          Равшан Джамшутович </a></b>
+    </p>
+    <a class="button-exit" href="exit.html"> Выход </a> <!--сделать значком -->
+    <ul class="header-mini-navigator">
+      <li> <a class="mycheck" href="#"> Мои заказы </a> </li>
+      <li> <a class="private" href="#"> Мой кабинет </a> </li>
+      </ul>
+    </div>
+      <nav class="main-navigation">
+      <ul class="site-navigation">
+      <li> <a class="site-navigation-main" href="main.html"> Главная </a> </li>
+      <li> <a class="site-navigation-aboutUs" href="aboutUs.html"> Компания </a> </li>
+      <li> <a class="site-navigation-catalog" href="catalog.html"> Каталог </a> </li>
+      <li> <a class="site-navigation-news" href="news.html"> Новости </a> </li>
+      <li> <a class="site-navigation-offer" href="offer.html"> Спецпредложение </a> </li>
+      <li> <a class="site-navigation-delivery" href="delivery.html"> Доставка </a> </li>
+      <li> <a class="site-navigation-contacts" href="contacts.html"> Контакты </a> </li>
+      </ul>
+      </nav>
+    </header>
 
 <main class="conteiner">
 <ol class="breadcrumbs">
 
-  <li> <a href="index.html"> <img src="img/index.logo.svg" width="50"height="100"
-    alt="логотип главной страници"> Главная </a></li>
-  <li> <a href="catalog.html"> Каталог </a> </li>
-  <li> <a href="tool.html">Инструменты </a> </li>
+  <li> <a href="index.html"> <img src="img/icon-home.jpg" width="14"height="12"
+    alt="логотип главной страниц">  </a></li>
+  <li> <a class="breadcrumbs-catalog" href="catalog.html"> Каталог </a> </li>
+  <li> <a class="breadcrumbs-tool" href="tool.html">Инструменты </a> </li>
   <li> <a class="breadcrumbs-current"> Перфораторы </a> </li>
 
 </ol>
@@ -75,7 +82,7 @@
 <!--Здесь будет форма-->
 <section class="catalog">
   <h2 class="visually-hidden"> Перфораторы bosch </h2>
-    <ul class=catalog-list>
+    <ul class="catalog-list">
       <li class="catalog-item">
         <H3>
           <a href="catalog-item.html">
@@ -83,6 +90,7 @@
             <p class="catalog-model">BFG3000</p>
           </a>
           </h3>
+
           <p>
 
 
@@ -333,27 +341,27 @@
 </section>
 </main>
 <footer class="main-footer">
-  <img src="img/footer.logo.png" width="220" height="68" alt="логотип
-  Техномарт">
+  <a class="index-logo" href="index.html" alt="Логотип Техномарт">
+    Техномарт </a>
   <p class="footer-contacts">
     Адрес: г.Сантк-Петербург, Б.Конюшенная, д.19/8 <br>
     Телефон: +7 (812)555-05-55
   </p>
   <nav class="footer-navigation">
   <ul class="site-footer-navigation">
-  <li> <a href="aboutUs.html"> Компания </a> </li>
-  <li> <a href="news.html"> Новости </a> </li>
-  <li> <a href="catalog.html"> Каталог </a> </li>
-  <li> <a href="delivery.html"> Доставка </a> </li>
-  <li> <a href="contacts.html"> Контакты </a> </li>
+  <li> <a class="aboutUs" href="aboutUs.html"> Компания </a> </li>
+  <li> <a class="news" href="news.html"> Новости </a> </li>
+  <li> <a class="catalog" href="catalog.html"> Каталог </a> </li>
+  <li> <a class="delivery" href="delivery.html"> Доставка </a> </li>
+  <li> <a class="contacts" href="contacts.html"> Контакты </a> </li>
   </ul>
   </nav>
   <nav class="footer-goods-navigation">
   <ul class="footer-goods-navigation">
-  <li> <a href="materials.html"> Материалы </a> </li>
-  <li> <a href="mechanism.html"> Техника </a> </li>
-  <li> <a href="tool.html"> Инструмент </a> </li>
-  <li> <a href="offer.html"> Спецпредложение </a> </li>
+  <li> <a class="materials" href="materials.html"> Материалы </a> </li>
+  <li> <a class="mechanism" href="mechanism.html"> Техника </a> </li>
+  <li> <a class="tool" href="tool.html"> Инструмент </a> </li>
+  <li> <a class="offer" href="offer.html"> Спецпредложение </a> </li>
   </ul>
   </nav>
 </footer>
@@ -371,11 +379,11 @@
       </div>
       <p class="feedback-footer-copyright">
         Обратная связь
-        <a href="mail@htmlacademy.ru"> mail@htmlacademy.ru </a>
+        <a class="feedback-mail" href="mail@htmlacademy.ru"> mail@htmlacademy.ru </a>
       </p>
       <p>
         Разработано
-        <a href="https:htmlacademy.ru"> htmlacademy.ru </a>
+        <a class="web-address" href="https://htmlacademy.ru"> htmlacademy.ru </a>
       </p>
 </footer>
 </body>

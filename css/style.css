@@ -9,7 +9,7 @@ font-weight: 400;
 color: #000000;
 text-transform: uppercase;
 
-background-color: #ffffff;
+background-color: #f1f5f7;
 background-position: top center;
 background-repeat: no-repeat;
 }
@@ -30,6 +30,434 @@ a {
   list-style: none;
 }
 
-.user-control {
+.index-logo,
+.marker-link,
+.cart-link,
+.checkout {
   color: #ffffff;
+}
+
+.checkout {
+  background-color: #63a63e;
+}
+
+.checkout:hover {
+  color: #8b8e94;
+  background-color: #5fbb2d;
+}
+
+.checkout:focus {
+  color: #ffffff;
+  background-color: #518534;
+}
+
+.index-logo {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #ee3643;
+  border: 0px solid #ee3643;
+}
+
+.index-logo:hover {
+  background-color: #ca2c37;
+}
+
+.index-logo:focus {
+  background-color: #ba2732;
+}
+
+.marker-link,
+.cart-link {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #293449;
+  border: 0px solid #293449;
+}
+
+.marker-link:hover,
+.cart-link:hover {
+  background-color: #212a3a;
+  border: 0px solid #212a3a;
+}
+
+.marker-link:focus,
+.cart-link:focus {
+color: #8b8e94;
+
+  background-color: #161d29;
+  border: 0px solid #161d29;
+}
+
+.search-form input[type="text"]{
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #293449;
+  border: 0px solid #293449;
+}
+
+.search-form input:hover {
+  background-color: #212a3a;
+  border: 0px solid #212a3a;
+}
+
+.search-form input:focus {
+  color: #000000;
+
+  background-color: #ffffff;
+  border: 0px solid #ffffff;
+}
+
+.header-text {
+  font-size: 16px;
+  line-height: 23px;
+  color: #ee3643;
+
+  background-color: #f1f5f7;
+}
+
+.header-text {
+  font-style: oblique;
+}
+
+.phone {
+  font-size: 21px;
+  line-height: 21px;
+  color: #ee3643;
+
+  background-color: #f1f5f7;
+  border: 2px solid #ffffff;
+}
+
+.address {
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
+
+  background-color: #f1f5f7;
+}
+
+.button {
+  font-size: 21px;
+  line-height: 21px;
+
+  text-align: center;
+  color: #000000;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+  border: none;
+}
+
+.button:hover,
+.button:hover {
+  color: #ee3643;
+}
+
+.button:focus,
+.button:focus {
+  color: #c5c5c5;
+}
+
+.site-navigation {
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
+
+  background-color: #32425c;
+}
+
+.site-navigation-main,
+.site-navigation-aboutUs,
+.site-navigation-catalog,
+.site-navigation-news,
+.site-navigation-offer,
+.site-navigation-delivery,
+.site-navigation-contacts {
+  color: #ffffff;
+}
+
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation-main:hover,
+.site-navigation-aboutUs:hover,
+.site-navigation-catalog:hover,
+.site-navigation-news:hover,
+.site-navigation-offer:hover,
+.site-navigation-delivery:hover,
+.site-navigation-contacts:hover {
+  color: #ffffff;
+
+  background-color: #293449;
+}
+
+.site-navigation-main:focus,
+.site-navigation-aboutUs:focus,
+.site-navigation-catalog:focus,
+.site-navigation-news:focus,
+.site-navigation-offer:focus,
+.site-navigation-delivery:focus,
+.site-navigation-contacts:focus {
+  color: #777d88;
+
+  background-color: #1d2739;
+}
+
+.conteiner-description {
+  color: #000000;
+
+  background-color: #ffffff;
+  background-position: right;
+  background-repeat: repeat;
+}
+
+.conteiner-description h3 {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.delivery-list {
+  list-style: none;
+}
+
+.about-us {
+  font-size: 20px;
+  line-height: 110px;
+  color: #ffffff;
+
+  background-color: #ee3643;
+  border: 0px solid #ee3643;
+}
+
+.about-us:hover {
+  background-color: #ca2c37;
+}
+
+.about-us:focus {
+  background-color: #ba2732;
+}
+
+.button-contacts {
+  font-size: 20px;
+  line-height: 110px;
+  color: #ffffff;
+
+  background-color: #ee3643;
+  border: 0px solid #ee3643;
+}
+
+.button-contacts:hover {
+  background-color: #ca2c37;
+}
+
+.button-contacts:focus {
+  background-color: #ba2732;
+}
+
+.main-footer {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #32425c;
+}
+
+.site-footer-navigation,
+.footer-goods-navigation {
+  list-style: none;
+}
+
+.aboutUs,
+.news,
+.catalog,
+.delivery,
+.contacts {
+  color: #ffffff;
+}
+
+.materials,
+.mechanism,
+.tool,
+.offer {
+  color: #ffd180;
+}
+
+.feedback-footer {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #293449;
+}
+
+.feedback-footer-social {
+  text-align: center;
+}
+
+.feedback-footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+  color: #ffffff;
+}
+
+.feedback-mail,
+.web-address {
+  color: #ffd180;
+}
+
+.modal-modal-feedback {
+  display: none;
+}
+
+.cart-link-catalog {
+  color: #ffffff;
+  background-color: #ca2c37;
+}
+
+.cart-link-catalog:hover {
+  color: #ffffff;
+  background-color: #ba2732;
+}
+
+.cart-link-catalog:focus {
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.button-exit {
+  display: none;
+}
+
+.header-mini-navigator {
+  list-style: none;
+}
+
+.mycheck,
+.private {
+  font-size: 16px;
+  line-height: 18px;
+  color: #32425c;
+
+  background-color: #f1f5f7;
+}
+
+.mycheck:hover,
+.private:hover {
+  background-color: #ee3643;
+}
+
+.mycheck:focus,
+.private:focus {
+  background-color: #c5c5c5;
+}
+
+.user-item-account {
+  font-size: 21px;
+  line-height: 21px;
+  color: #6b6b6b;
+
+  background-color: #ffffff;
+}
+
+.user-item-account:hover {
+  color: #32425c;
+}
+
+.user-item-account:focus {
+  color: #c5c5c5;
+}
+
+.breadcrumbs {
+  list-style: none;
+}
+
+.breadcrumbs a {
+  color: #000000;
+}
+
+.page-totle {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+
+  background-color: #f2f6f8;
+}
+
+.filters {
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+
+  background-color: #f7f3ec;
+}
+
+.catalog-list {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-item-title,
+.catalog-model {
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.old-price {
+  font-size: 17px;
+  line-height: 18px;
+  color: #999999;
+
+  background-color: #ffffff;
+}
+
+.old-price {
+  list-style: none;
+}
+
+.price {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #ee3643;
+}
+
+.filter fieldset {
+  border: none;
+}
+
+.filter fieldset {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.filter ul {
+  list-style: none;
+  line-height: 18px;
+}
+
+.filter-input:hover+label,
+.filter-input:focus+label {
+  color: #000000;
 }
