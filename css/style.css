@@ -9,6 +9,12 @@ font-weight: 400;
 color: #000000;
 }
 
+.wrap {
+  width: 960px;
+  padding: 0 10px 0 10px;
+  margin: 0 auto;
+}
+
 a {
   text-decoration: none;
 }
@@ -250,6 +256,10 @@ justify-content: space-around;
   color: #777d88;
 
   background-color: #1d2739;
+}
+
+.info-block {
+  display: flex;
 }
 
 .conteiner-description {
